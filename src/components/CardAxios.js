@@ -17,13 +17,7 @@ export default function CardAxios() {
 
   return (
     <>
-      <input
-        type="text"
-        placeholder="search brand"
-        className="setside mt-3"
-        onChange={(ev) => setSearch(ev.target.value)}
-        value={search}
-      />
+      <input type="text" placeholder="search brand"className="setside mt-3" onChange={(ev) => setSearch(ev.target.value)} value={search}/>
       <div className="container mt-4">
         <h2>Cars Details</h2>
         <div className="row">
