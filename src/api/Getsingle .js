@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from "axios";
 
 const Getproducts= async(id)=>{
     const response= await axios({
