@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from "axios";
 
 const loginapi= async(data)=>{
     const response= await axios({
